@@ -19,7 +19,7 @@ Route::get('/', function () {
 });
 
 
-Route::get('/showDealers', [dealershipsController::class,'showDealers']);
+Route::get('showDealers', [dealershipsController::class,'showDealers']);
 
 
 Route::group(['prefix' => 'admin'], function () {
